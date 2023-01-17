@@ -8,6 +8,7 @@ import "../styles/index.css";
 //import your own components
 import SecondCounter from "./component/SecondCounter.jsx";
 
+//declaro variables
 let days = 0;
 let hours = 0;
 let minutes = 0;
@@ -15,7 +16,7 @@ let seconds = 0;
 let weeks= 0;
 let months= 0;
 
-
+//funcion para contabilizar minutos/horas/dias/semanas/meses/
 setInterval(function(){
   seconds++;
   if (seconds === 60) {

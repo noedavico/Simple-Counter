@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 const SecondCounter = ({ months, weeks, days, hours, minutes, seconds}) => {
 	return (
 	  <>
-		<div className="mainCounter Container-fluid">
+		<div className="mainCounter mx-auto">
 		  <div className="row justify-content-center text-white" >
 			<div className="clock col-2 digit shadow p-2 me-1 rounded-2">
 			  <i className="far fa-clock #offset"></i>
